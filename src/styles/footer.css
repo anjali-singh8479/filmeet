@@ -1,0 +1,42 @@
+.footer-wrapper{
+    display: flex;
+    align-items: center;
+}
+.footerwrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px;
+}
+.footer-wrapper img{
+height: 30px;
+}
+.footer-wrapper a{
+    color:  rgb(155, 153, 153);
+    padding: 1vmax;
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: 100;
+
+}
+
+
+.footer-wrapper a:hover{
+color: #EE1981;
+}
+.footer-wrapper span{
+    color:  rgb(155, 153, 153);
+    font-weight: 100;
+    font-size: 12px;
+    padding: 1vmax;
+}
+svg{
+    color: rgb(155, 153, 153);
+    font-size: 30px;
+    cursor: pointer;
+}
+.footerwrap p{
+    color: rgb(155, 153, 153);
+    font-weight: 100;
+    font-size: 12px;
+}

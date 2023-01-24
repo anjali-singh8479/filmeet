@@ -1,0 +1,45 @@
+nav{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+   align-items: center ;
+    padding: 1rem;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+nav .img-wrapper{
+    display: flex;
+}
+nav .right-nav{
+    display: flex;
+    justify-content: space-around;
+}
+nav .img-wrapper img{
+    height: 30px;
+}
+
+nav div a{
+    color: white;
+    padding: 2vmax;
+    text-decoration: none;
+   
+}
+nav div a:hover{
+    color: #EE1981;
+}
+nav svg{
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 5px 10px;
+    
+}
+.btn{
+    background-color: #EE1981;
+    color: white;
+    border-radius: 4px;
+    padding: 0 10px;
+    background-image: linear-gradient(to right, rgba(114, 112, 112, 0),#9f416f);;
+
+}
